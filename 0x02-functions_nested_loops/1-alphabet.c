@@ -1,4 +1,5 @@
 #include "main.h"
+
 /**
  * main - print alphabets
  * Return: 0 always 
@@ -12,4 +13,5 @@ _putchar(c);
 c++;
 }
 _putchar('\n');
+}
 
