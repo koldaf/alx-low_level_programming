@@ -2,6 +2,7 @@
 
 /**
  * _isdigit - print 1 - 9
+ * @c - int to be checked
  * Return: 0 or 1
  */
 
