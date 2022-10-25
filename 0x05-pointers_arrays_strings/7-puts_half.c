@@ -13,8 +13,9 @@ void puts_half(char *str)
 	{ /* get the total array length */
 	}
 
+	i++;
 	j = (i / 2);
-	for (k = j + 1; k <= i; k++)
+	for (k = j; str[k] != '\0'; k++)
 	{
 		_putchar(str[k]);
 	}
