@@ -13,18 +13,10 @@ void puts_half(char *str)
 	{ /* get the total array length */
 	}
 
-	j = ((i - 1) / 2);
-	if (j % 2 != 0)
+	j = (i / 2);
+	for (k = j + 1; k <= i; k++)
 	{
-		_putchar(str[i]);
+		_putchar(str[k]);
 	}
-	else
-	{
-		for (k = j + 1; k <= i; k++)
-		{
-			_putchar(str[k]);
-		}
-	}
-
 	_putchar('\n');
 }
