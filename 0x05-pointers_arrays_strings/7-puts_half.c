@@ -13,7 +13,7 @@ void puts_half(char *str)
 	{ /* get the total array length */
 	}
 
-	j = (i / 2);
+	j = ((i - 1) / 2);
 	if (j % 2 != 0)
 	{
 		_putchar(str[i]);
